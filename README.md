@@ -9,3 +9,27 @@ int main()
     return 0;
 }
 ```
+
+Comments in C++:
+```
+// Single Comments
+
+/*
+Multiline Comments
+*/
+```
+
+Statement:
+```
+cout << "Hello World!";
+```
+
+## Datatypes
+```
+string name = "John";
+int age = 69;
+float measure = 3.5;
+double size = .000000010;
+char letter = 'A';
+bool imAwesome = true;
+```
