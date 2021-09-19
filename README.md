@@ -1,4 +1,4 @@
-# C++ Notes for CSC121
+# C++ Notes for CSC121 | VSCODE 
 
 Everytime we use ```#include <iostream>``` we must pair it with a ```using namespace std```
 
