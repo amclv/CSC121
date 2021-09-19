@@ -21,7 +21,7 @@ Multiline Comments
 
 Statement:
 ```
-cout << "Hello World!";
+cout << "Hello World!" >> endl;
 ```
 
 ## Datatypes
