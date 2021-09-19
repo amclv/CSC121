@@ -4,6 +4,8 @@ I use iTerm2 for my terminal with ohmyzsh on Mac M1. When I am in my directory o
 g++ -o TestProgram TestProgram.cpp
 ./TestProgram
 ```
+
+# General Notes
 Everytime we use ```#include <iostream>``` we must pair it with a ```using namespace std```
 
 Every project must start with an entry point which is:
@@ -13,7 +15,9 @@ int main()
 	return 0;
 }
 ```
-Comments in C++:
+Statement: ```cout << "Hello World!" >> endl;```
+
+# Comments
 ```
 // Single Comments
 ```
@@ -22,7 +26,6 @@ Comments in C++:
 Multiline Comments
 */
 ```
-Statement: ```cout << "Hello World!" >> endl;```
 
 #  Datatypes
 ```
