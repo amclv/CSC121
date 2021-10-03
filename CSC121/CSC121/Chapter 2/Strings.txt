@@ -1,0 +1,28 @@
+Please enter the values for the following variables...
+Enter the ID: 10
+Enter the full name: Aaron Cleveland
+Enter the GPA: 10
+
+Here are the values entered
+Student ID:    10
+Student name:    Aaron Cleveland
+Length of the student name is:    15
+Student GPA:    10
+
+Student first name:            Aaron
+Student last name:             Cleveland
+Using concatenation to get full name:    Aaron  Cleveland
+Before swap:
+ first: one
+ second: two
+
+
+After swap:
+ first: two
+ second: one
+
+
+After Swap:
+ first: Aaron
+ fname: two
+Program ended with exit code: 0

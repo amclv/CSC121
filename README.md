@@ -1,63 +1,12 @@
-#  C++ Notes for CSC121 | VSCODE
+#  C++ Notes for CSC121 | VSCODE / XCODE
 I use iTerm2 for my terminal with ohmyzsh on Mac M1. When I am in my directory of my files I use the following command to make a C++ executable file and run it in terminal.
+
+*Update! I can also use Xcode which I am already familiar with for my day - to - day job (iOS Engineer) Opening up Xcode I select macOS -> Command Line Tool and select C++ as my language choice. For each homework assignment I need to run separately with I have to comment out the other files since we can only have one instance of int main().*
+
+*Solution would be to use one main file and just call in seperate files so I dont need to run an issue with commenting out code in the future.*
+
+# Command line method for making a file with g++
 ```
 g++ -o TestProgram TestProgram.cpp
 ./TestProgram
-```
-
-# General Notes
-Everytime we use ```#include <iostream>``` we must pair it with a ```using namespace std```
-
-Every project must start with an entry point which is:
-```
-int main()
-{
-	return 0;
-}
-```
-Statement: ```cout << "Hello World!" >> endl;```
-
-# Comments
-```
-// Single Comments
-```
-```
-/*
-Multiline Comments
-*/
-```
-
-#  Datatypes
-```
-string name = "John";
-int age = 69;
-float measure = 3.5;
-double size = .000000010;
-char letter = 'A';
-bool imAwesome = true;
-```
-
-#  Arithmetics
-
-PEMDAS precedence (P MD AS)(C++ does not use Exponents)(left -> right in order)
-```
-+ = Addition
-- = Subtraction
-* = Multiplication
-/ = Division
-% = Modulos (Remainder)
-```
-Example:
-```
-Paranthesis is first
-	2 + (3 + 5 - 8 / 4)
-Division is next
-	2 + (3 + 5 - 2)
-Since AS(Addition and Subtraction are at the same level you go from left to right)
-Addition is next
-	2 + (8 - 2)
-Subtraction is next
-	2 + (6)
-Addition last
-	8
 ```
