@@ -12,6 +12,9 @@
 		1AA10429270A21DE00FF560D /* Constants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AA10428270A21DE00FF560D /* Constants.cpp */; };
 		1AA1042B270A221700FF560D /* Datatypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AA1042A270A221700FF560D /* Datatypes.cpp */; };
 		1AA10431270A753000FF560D /* Selection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AA10430270A753000FF560D /* Selection.cpp */; };
+		1ACA0DE1270AC4C300553249 /* exercise1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA0DE0270AC4C300553249 /* exercise1.cpp */; };
+		1ACA0DE3270AE4BC00553249 /* exercise2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA0DE2270AE4BC00553249 /* exercise2.cpp */; };
+		1ACA0DE5270AE6C000553249 /* exercise3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA0DE4270AE6C000553249 /* exercise3.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +37,9 @@
 		1AA1042A270A221700FF560D /* Datatypes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Datatypes.cpp; sourceTree = "<group>"; };
 		1AA1042F270A742500FF560D /* Strings.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Strings.txt; sourceTree = "<group>"; };
 		1AA10430270A753000FF560D /* Selection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Selection.cpp; sourceTree = "<group>"; };
+		1ACA0DE0270AC4C300553249 /* exercise1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exercise1.cpp; sourceTree = "<group>"; };
+		1ACA0DE2270AE4BC00553249 /* exercise2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exercise2.cpp; sourceTree = "<group>"; };
+		1ACA0DE4270AE6C000553249 /* exercise3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exercise3.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,7 @@
 		1A757F5E270A2014002AD01F /* CSC121 */ = {
 			isa = PBXGroup;
 			children = (
+				1ACA0DDE270AC48400553249 /* Assignments */,
 				1AA1041D270A206000FF560D /* Chapter 1 */,
 				1AA1041C270A205600FF560D /* Chapter 2 */,
 			);
@@ -90,6 +97,24 @@
 				1AA1042A270A221700FF560D /* Datatypes.cpp */,
 			);
 			path = "Chapter 1";
+			sourceTree = "<group>";
+		};
+		1ACA0DDE270AC48400553249 /* Assignments */ = {
+			isa = PBXGroup;
+			children = (
+				1ACA0DDF270AC48B00553249 /* Assignment 1 */,
+			);
+			path = Assignments;
+			sourceTree = "<group>";
+		};
+		1ACA0DDF270AC48B00553249 /* Assignment 1 */ = {
+			isa = PBXGroup;
+			children = (
+				1ACA0DE0270AC4C300553249 /* exercise1.cpp */,
+				1ACA0DE2270AE4BC00553249 /* exercise2.cpp */,
+				1ACA0DE4270AE6C000553249 /* exercise3.cpp */,
+			);
+			path = "Assignment 1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +175,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AA10431270A753000FF560D /* Selection.cpp in Sources */,
+				1ACA0DE5270AE6C000553249 /* exercise3.cpp in Sources */,
+				1ACA0DE1270AC4C300553249 /* exercise1.cpp in Sources */,
 				1AA1041F270A207100FF560D /* Strings.cpp in Sources */,
 				1AA1042B270A221700FF560D /* Datatypes.cpp in Sources */,
+				1ACA0DE3270AE4BC00553249 /* exercise2.cpp in Sources */,
 				1AA10429270A21DE00FF560D /* Constants.cpp in Sources */,
 				1AA10426270A21BA00FF560D /* Prepost.cpp in Sources */,
 			);
