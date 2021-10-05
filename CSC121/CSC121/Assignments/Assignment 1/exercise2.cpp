@@ -19,12 +19,12 @@
 
 using namespace std;
 
-int main()
-{
-    int digits;
-    
-    cout << "Enter digits: " << endl;
-    cin >> digits;
-    
-    cout << digits << endl;
-}
+//int main()
+//{
+//    int digits;
+//    
+//    cout << "Enter digits: " << endl;
+//    cin >> digits;
+//    
+//    cout << digits << endl;
+//}

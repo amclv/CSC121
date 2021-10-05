@@ -30,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A412309270BE410002227DB /* Selection.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Selection.txt; sourceTree = "<group>"; };
 		1A757F5C270A2014002AD01F /* CSC121 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CSC121; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA1041E270A207100FF560D /* Strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Strings.cpp; path = "CSC121/Chapter 2/Strings.cpp"; sourceTree = SOURCE_ROOT; };
 		1AA10425270A21BA00FF560D /* Prepost.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Prepost.cpp; sourceTree = "<group>"; };
@@ -85,6 +86,7 @@
 				1AA1041E270A207100FF560D /* Strings.cpp */,
 				1AA1042F270A742500FF560D /* Strings.txt */,
 				1AA10430270A753000FF560D /* Selection.cpp */,
+				1A412309270BE410002227DB /* Selection.txt */,
 			);
 			path = "Chapter 2";
 			sourceTree = "<group>";

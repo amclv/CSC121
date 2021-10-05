@@ -1,0 +1,9 @@
+Please enter a value for score: 100
+Here is the value you entered for score: 100
+Score is perfect!
+Bravo!
+
+ Score is even!
+
+Letter Grade is A
+Program ended with exit code: 0
