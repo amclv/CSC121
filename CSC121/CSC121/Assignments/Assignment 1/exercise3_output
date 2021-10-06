@@ -1,0 +1,13 @@
+Please enter the first time:
+0900
+Please enter the second time:
+1730
+8 hours 30 minutes
+Program ended with exit code: 0
+
+Please enter the first time:
+1730
+Please enter the second time:
+0900
+15 hours 30 minutes
+Program ended with exit code: 0

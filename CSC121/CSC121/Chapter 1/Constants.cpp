@@ -24,7 +24,7 @@ using namespace std;
 
 // Variable are written in lowercase and constants as uppercase
 //const float ROI = 3.5; // Constant declaration and initializaiton
-
+//
 //int main()
 //{
 //    float amount, interest, endOfYearBalance;

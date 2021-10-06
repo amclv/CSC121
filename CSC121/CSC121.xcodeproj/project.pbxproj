@@ -31,6 +31,9 @@
 
 /* Begin PBXFileReference section */
 		1A412309270BE410002227DB /* Selection.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Selection.txt; sourceTree = "<group>"; };
+		1A41230A270BEB38002227DB /* exercise1_output.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = exercise1_output.txt; sourceTree = "<group>"; };
+		1A578D73270D43DA00A212D1 /* exercise2_output */ = {isa = PBXFileReference; lastKnownFileType = text; path = exercise2_output; sourceTree = "<group>"; };
+		1A578D74270D556A00A212D1 /* exercise3_output */ = {isa = PBXFileReference; lastKnownFileType = text; path = exercise3_output; sourceTree = "<group>"; };
 		1A757F5C270A2014002AD01F /* CSC121 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CSC121; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA1041E270A207100FF560D /* Strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Strings.cpp; path = "CSC121/Chapter 2/Strings.cpp"; sourceTree = SOURCE_ROOT; };
 		1AA10425270A21BA00FF560D /* Prepost.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Prepost.cpp; sourceTree = "<group>"; };
@@ -115,6 +118,9 @@
 				1ACA0DE0270AC4C300553249 /* exercise1.cpp */,
 				1ACA0DE2270AE4BC00553249 /* exercise2.cpp */,
 				1ACA0DE4270AE6C000553249 /* exercise3.cpp */,
+				1A41230A270BEB38002227DB /* exercise1_output.txt */,
+				1A578D73270D43DA00A212D1 /* exercise2_output */,
+				1A578D74270D556A00A212D1 /* exercise3_output */,
 			);
 			path = "Assignment 1";
 			sourceTree = "<group>";

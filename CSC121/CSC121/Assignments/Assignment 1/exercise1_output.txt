@@ -1,0 +1,10 @@
+Hello! Please enter in the weekly sales:
+32000
+Weekly Sales:             $ 32000.00
+Gross (0.08):             $  2560.00
+Tax (0.16):                 $   409.60
+Retirement (0.08):         $   204.80
+Social Security (0.06):     $   153.60
+Total Deduction:         $   768.00
+Total Pay:                 $  1792.00
+Program ended with exit code: 0

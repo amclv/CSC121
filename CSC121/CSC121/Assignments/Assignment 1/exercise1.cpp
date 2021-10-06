@@ -54,37 +54,40 @@
 
 using namespace std;
 
-const double GROSSPAY = 8.0;
-const double TAXRATE = 16.0;
+const double GROSS_PAY = 8.0;
+const double TAX_RATE = 16.0;
 const double RETIREMENT = 8.0;
-const double SOCIALSECURITY = 6.0;
+const double SOCIAL_SECURITY = 6.0;
 
-//int main()
-//{
-//
-//    double weeklySales;
-//    double totalDeductions;
-//    double totalGrossPay;
-//    double totalTaxRate;
-//    double totalSocialSecurity;
-//    double totalRetirement;
-//    double totalTakeHome;
-//
-//    cout << "Hello! Please enter in the weekly sales: " << endl;
-//    cin >> weeklySales;
-//
-//    // Grab the gross pay first.
-//    totalGrossPay = weeklySales * (GROSSPAY / 100);
-//    totalTaxRate = totalGrossPay * (TAXRATE / 100);
-//    totalSocialSecurity = totalGrossPay * (SOCIALSECURITY / 100);
-//    totalRetirement = totalGrossPay * (RETIREMENT / 100);
-//
-//    totalDeductions = totalTaxRate + totalSocialSecurity + totalRetirement;
-//    totalTakeHome = totalGrossPay - totalDeductions;
-//    cout << "Weekly Sales: " << weeklySales << endl;
-//    cout << "Gross: " << totalGrossPay << endl;
-//    cout << "Tax: " << totalTaxRate << endl;
-//    cout << "Total Deductions: " << totalDeductions << endl;
-//    cout << "Total Take Home: " << totalTakeHome << endl;
-//    return 0;
-//}
+int main()
+{
+
+    double weeklySales;
+    double totalDeductions;
+    double totalGrossPay;
+    double totalTaxRate;
+    double totalSocialSecurity;
+    double totalRetirement;
+    double totalTakeHome;
+
+    cout << "Hello! Please enter in the weekly sales: " << endl;
+    cin >> weeklySales;
+
+    // Grab the gross pay first.
+    totalGrossPay = weeklySales * (GROSS_PAY / 100);
+    totalTaxRate = totalGrossPay * (TAX_RATE / 100);
+    totalSocialSecurity = totalGrossPay * (SOCIAL_SECURITY / 100);
+    totalRetirement = totalGrossPay * (RETIREMENT / 100);
+
+    totalDeductions = totalTaxRate + totalSocialSecurity + totalRetirement;
+    totalTakeHome = totalGrossPay - totalDeductions;
+    cout << fixed << setprecision(2);
+    cout << "Weekly Sales:\t\t\t $ " << setw(8) << weeklySales << endl;
+    cout << "Gross (0.08):\t\t\t $ " << setw(8) << totalGrossPay << endl;
+    cout << "Tax (0.16):\t\t\t\t $ " << setw(8) << totalTaxRate << endl;
+    cout << "Retirement (0.08):\t\t $ " << setw(8) << totalRetirement << endl;
+    cout << "Social Security (0.06):\t $ " << setw(8) << totalSocialSecurity << endl;
+    cout << "Total Deduction:\t\t $ " << setw(8) << totalDeductions << endl;
+    cout << "Total Pay:\t\t\t\t $ " << setw(8) << totalTakeHome << endl;
+    return 0;
+}
