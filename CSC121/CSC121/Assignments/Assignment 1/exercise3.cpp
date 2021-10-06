@@ -43,6 +43,8 @@ int main()
     // Turn minutes into hours and and minutes into minutes and output the answer.
     int hours = minutes / 60;
     minutes = minutes % 60;
+    
+    // OUTPUT.
     cout << hours << " hours " << minutes << " minutes" << endl;
     
     return 0;
