@@ -20,29 +20,29 @@
 
 using namespace std;
 
-int main()
-{
-    // Variable int
-    int number;
-
-    // Prompt and accept input from user.
-    cout << "Enter a five-digit number: ";
-    cin >> number;
-
-    // Print each number with a space // 12345
-    
-    cout << number / 10000 << " "; // 2345
-    number = number % 10000;
-
-    cout << number / 1000 << " "; // 345
-    number = number % 1000;
-
-    cout << number / 100 << " "; // 45
-    number = number % 100;
-
-    cout << number / 10 << " "; // 5
-    number = number % 10;
-
-    cout << number << endl; // 1 2 3 4 5
-    return 0;
-}
+//int main()
+//{
+//    // Variable int
+//    int number;
+//
+//    // Prompt and accept input from user.
+//    cout << "Enter a five-digit number: ";
+//    cin >> number;
+//
+//    // Print each number with a space // 12345
+//    
+//    cout << number / 10000 << " "; // 2345
+//    number = number % 10000;
+//
+//    cout << number / 1000 << " "; // 345
+//    number = number % 1000;
+//
+//    cout << number / 100 << " "; // 45
+//    number = number % 100;
+//
+//    cout << number / 10 << " "; // 5
+//    number = number % 10;
+//
+//    cout << number << endl; // 1 2 3 4 5
+//    return 0;
+//}

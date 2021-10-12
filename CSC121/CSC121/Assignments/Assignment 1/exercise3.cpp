@@ -22,30 +22,30 @@ using namespace std;
 
 const int MINS_PER_DAY = 1440; // How many minutes are in a day (i.e 60 min times 24 hours)
 
-int main()
-{
-    int first, second; // Initialize first and second as an int.
-    
-    // Prompt the user and ask for input for first and second times.
-    cout << "Please enter the first time: " << endl;
-    cin >> first;
-    
-    cout << "Please enter the second time: " << endl;
-    cin >> second;
-    
-    // Convert both to minutes
-    first = (first / 100) * 60 + first % 100;
-    second = (second / 100) * 60 + second % 100;
-    
-    // Working time difference in minutes.
-    int minutes = (second + MINS_PER_DAY - first) % MINS_PER_DAY;
-    
-    // Turn minutes into hours and and minutes into minutes and output the answer.
-    int hours = minutes / 60;
-    minutes = minutes % 60;
-    
-    // OUTPUT.
-    cout << hours << " hours " << minutes << " minutes" << endl;
-    
-    return 0;
-}
+//int main()
+//{
+//    int first, second; // Initialize first and second as an int.
+//    
+//    // Prompt the user and ask for input for first and second times.
+//    cout << "Please enter the first time: " << endl;
+//    cin >> first;
+//    
+//    cout << "Please enter the second time: " << endl;
+//    cin >> second;
+//    
+//    // Convert both to minutes
+//    first = (first / 100) * 60 + first % 100;
+//    second = (second / 100) * 60 + second % 100;
+//    
+//    // Working time difference in minutes.
+//    int minutes = (second + MINS_PER_DAY - first) % MINS_PER_DAY;
+//    
+//    // Turn minutes into hours and and minutes into minutes and output the answer.
+//    int hours = minutes / 60;
+//    minutes = minutes % 60;
+//    
+//    // OUTPUT.
+//    cout << hours << " hours " << minutes << " minutes" << endl;
+//    
+//    return 0;
+//}

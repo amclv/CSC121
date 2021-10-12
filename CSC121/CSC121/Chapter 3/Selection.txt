@@ -1,0 +1,11 @@
+Please enter a value for score: 81
+Here is the value you entered for score: 81
+
+ Score is odd!
+
+Letter Grade is B
+Letter Grade is B
+Your grade is B.
+
+ Score is Odd!
+Program ended with exit code: 0

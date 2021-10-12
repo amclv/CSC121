@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A684EC3270FBEA9001CDCE7 /* Selection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A684EC2270FBEA9001CDCE7 /* Selection.cpp */; };
+		1A6AC9292714A2A90033D26A /* CaseSwitch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A6AC9282714A2A90033D26A /* CaseSwitch.cpp */; };
 		1AA1041F270A207100FF560D /* Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AA1041E270A207100FF560D /* Strings.cpp */; };
 		1AA10426270A21BA00FF560D /* Prepost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AA10425270A21BA00FF560D /* Prepost.cpp */; };
 		1AA10429270A21DE00FF560D /* Constants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AA10428270A21DE00FF560D /* Constants.cpp */; };
@@ -34,6 +36,9 @@
 		1A41230A270BEB38002227DB /* exercise1_output.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = exercise1_output.txt; sourceTree = "<group>"; };
 		1A578D73270D43DA00A212D1 /* exercise2_output */ = {isa = PBXFileReference; lastKnownFileType = text; path = exercise2_output; sourceTree = "<group>"; };
 		1A578D74270D556A00A212D1 /* exercise3_output */ = {isa = PBXFileReference; lastKnownFileType = text; path = exercise3_output; sourceTree = "<group>"; };
+		1A684EC2270FBEA9001CDCE7 /* Selection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Selection.cpp; sourceTree = "<group>"; };
+		1A6AC92727149FDA0033D26A /* Selection.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Selection.txt; sourceTree = "<group>"; };
+		1A6AC9282714A2A90033D26A /* CaseSwitch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CaseSwitch.cpp; sourceTree = "<group>"; };
 		1A757F5C270A2014002AD01F /* CSC121 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CSC121; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA1041E270A207100FF560D /* Strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Strings.cpp; path = "CSC121/Chapter 2/Strings.cpp"; sourceTree = SOURCE_ROOT; };
 		1AA10425270A21BA00FF560D /* Prepost.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Prepost.cpp; sourceTree = "<group>"; };
@@ -57,6 +62,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A684EC1270FBE7C001CDCE7 /* Chapter 3 */ = {
+			isa = PBXGroup;
+			children = (
+				1A684EC2270FBEA9001CDCE7 /* Selection.cpp */,
+				1A6AC92727149FDA0033D26A /* Selection.txt */,
+				1A6AC9282714A2A90033D26A /* CaseSwitch.cpp */,
+			);
+			path = "Chapter 3";
+			sourceTree = "<group>";
+		};
 		1A757F53270A2014002AD01F = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +91,7 @@
 		1A757F5E270A2014002AD01F /* CSC121 */ = {
 			isa = PBXGroup;
 			children = (
+				1A684EC1270FBE7C001CDCE7 /* Chapter 3 */,
 				1ACA0DDE270AC48400553249 /* Assignments */,
 				1AA1041D270A206000FF560D /* Chapter 1 */,
 				1AA1041C270A205600FF560D /* Chapter 2 */,
@@ -184,12 +200,14 @@
 			files = (
 				1AA10431270A753000FF560D /* Selection.cpp in Sources */,
 				1ACA0DE5270AE6C000553249 /* exercise3.cpp in Sources */,
+				1A684EC3270FBEA9001CDCE7 /* Selection.cpp in Sources */,
 				1ACA0DE1270AC4C300553249 /* exercise1.cpp in Sources */,
 				1AA1041F270A207100FF560D /* Strings.cpp in Sources */,
 				1AA1042B270A221700FF560D /* Datatypes.cpp in Sources */,
 				1ACA0DE3270AE4BC00553249 /* exercise2.cpp in Sources */,
 				1AA10429270A21DE00FF560D /* Constants.cpp in Sources */,
 				1AA10426270A21BA00FF560D /* Prepost.cpp in Sources */,
+				1A6AC9292714A2A90033D26A /* CaseSwitch.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -64,46 +64,46 @@ const double TAX_RATE = 16.0;
 const double RETIREMENT = 8.0;
 const double SOCIAL_SECURITY = 6.0;
 
-int main()
-{
-
-    /*
-     Created variables that are in double (As double is more precise in numbering)
-     */
-    double weeklySales;
-    double totalDeductions;
-    double totalGrossPay;
-    double totalTaxRate;
-    double totalSocialSecurity;
-    double totalRetirement;
-    double totalTakeHome;
-
-    // Prompts user to enter the sales and takes in input from the user.
-    cout << "Hello! Please enter in the weekly sales: " << endl;
-    cin >> weeklySales;
-
-    // Grab the gross pay first.
-    totalGrossPay = weeklySales * (GROSS_PAY / 100);
-    
-    // Calculate the rest of the deductions based on the gross pay from above
-    totalTaxRate = totalGrossPay * (TAX_RATE / 100);
-    totalSocialSecurity = totalGrossPay * (SOCIAL_SECURITY / 100);
-    totalRetirement = totalGrossPay * (RETIREMENT / 100);
-
-    // Add all three deductions
-    totalDeductions = totalTaxRate + totalSocialSecurity + totalRetirement;
-    
-    // Subtract all deductions from gross pay.
-    totalTakeHome = totalGrossPay - totalDeductions;
-    
-    // OUTPUT.
-    cout << fixed << setprecision(2);
-    cout << "Weekly Sales:\t\t\t $ " << setw(8) << weeklySales << endl;
-    cout << "Gross (0.08):\t\t\t $ " << setw(8) << totalGrossPay << endl;
-    cout << "Tax (0.16):\t\t\t\t $ " << setw(8) << totalTaxRate << endl;
-    cout << "Retirement (0.08):\t\t $ " << setw(8) << totalRetirement << endl;
-    cout << "Social Security (0.06):\t $ " << setw(8) << totalSocialSecurity << endl;
-    cout << "Total Deduction:\t\t $ " << setw(8) << totalDeductions << endl;
-    cout << "Total Pay:\t\t\t\t $ " << setw(8) << totalTakeHome << endl;
-    return 0;
-}
+//int main()
+//{
+//
+//    /*
+//     Created variables that are in double (As double is more precise in numbering)
+//     */
+//    double weeklySales;
+//    double totalDeductions;
+//    double totalGrossPay;
+//    double totalTaxRate;
+//    double totalSocialSecurity;
+//    double totalRetirement;
+//    double totalTakeHome;
+//
+//    // Prompts user to enter the sales and takes in input from the user.
+//    cout << "Hello! Please enter in the weekly sales: " << endl;
+//    cin >> weeklySales;
+//
+//    // Grab the gross pay first.
+//    totalGrossPay = weeklySales * (GROSS_PAY / 100);
+//    
+//    // Calculate the rest of the deductions based on the gross pay from above
+//    totalTaxRate = totalGrossPay * (TAX_RATE / 100);
+//    totalSocialSecurity = totalGrossPay * (SOCIAL_SECURITY / 100);
+//    totalRetirement = totalGrossPay * (RETIREMENT / 100);
+//
+//    // Add all three deductions
+//    totalDeductions = totalTaxRate + totalSocialSecurity + totalRetirement;
+//    
+//    // Subtract all deductions from gross pay.
+//    totalTakeHome = totalGrossPay - totalDeductions;
+//    
+//    // OUTPUT.
+//    cout << fixed << setprecision(2);
+//    cout << "Weekly Sales:\t\t\t $ " << setw(8) << weeklySales << endl;
+//    cout << "Gross (0.08):\t\t\t $ " << setw(8) << totalGrossPay << endl;
+//    cout << "Tax (0.16):\t\t\t\t $ " << setw(8) << totalTaxRate << endl;
+//    cout << "Retirement (0.08):\t\t $ " << setw(8) << totalRetirement << endl;
+//    cout << "Social Security (0.06):\t $ " << setw(8) << totalSocialSecurity << endl;
+//    cout << "Total Deduction:\t\t $ " << setw(8) << totalDeductions << endl;
+//    cout << "Total Pay:\t\t\t\t $ " << setw(8) << totalTakeHome << endl;
+//    return 0;
+//}
