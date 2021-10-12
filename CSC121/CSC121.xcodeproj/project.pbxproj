@@ -40,6 +40,7 @@
 		1A6AC92727149FDA0033D26A /* Selection.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Selection.txt; sourceTree = "<group>"; };
 		1A6AC9282714A2A90033D26A /* CaseSwitch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CaseSwitch.cpp; sourceTree = "<group>"; };
 		1A757F5C270A2014002AD01F /* CSC121 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CSC121; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7D65AB2716554600D4DF64 /* CaseSwitch.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CaseSwitch.txt; sourceTree = "<group>"; };
 		1AA1041E270A207100FF560D /* Strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Strings.cpp; path = "CSC121/Chapter 2/Strings.cpp"; sourceTree = SOURCE_ROOT; };
 		1AA10425270A21BA00FF560D /* Prepost.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Prepost.cpp; sourceTree = "<group>"; };
 		1AA10428270A21DE00FF560D /* Constants.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Constants.cpp; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 				1A684EC2270FBEA9001CDCE7 /* Selection.cpp */,
 				1A6AC92727149FDA0033D26A /* Selection.txt */,
 				1A6AC9282714A2A90033D26A /* CaseSwitch.cpp */,
+				1A7D65AB2716554600D4DF64 /* CaseSwitch.txt */,
 			);
 			path = "Chapter 3";
 			sourceTree = "<group>";
@@ -99,6 +101,13 @@
 			path = CSC121;
 			sourceTree = "<group>";
 		};
+		1A7D65AA2716549900D4DF64 /* Assignment 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Assignment 2";
+			sourceTree = "<group>";
+		};
 		1AA1041C270A205600FF560D /* Chapter 2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +132,7 @@
 		1ACA0DDE270AC48400553249 /* Assignments */ = {
 			isa = PBXGroup;
 			children = (
+				1A7D65AA2716549900D4DF64 /* Assignment 2 */,
 				1ACA0DDF270AC48B00553249 /* Assignment 1 */,
 			);
 			path = Assignments;

@@ -7,6 +7,7 @@
 /*
  Case Switch Statement using all previous sleections as menu items.
  Fall through property of the case switch statement
+ ASCII character has a numeric code (integer) A --> 65
  */
 
 #include <stdio.h>
