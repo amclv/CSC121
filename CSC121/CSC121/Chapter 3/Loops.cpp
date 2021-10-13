@@ -15,7 +15,7 @@ using namespace std;
 
 //int main()
 //{
-//    
+//
 //    // Print the values of CV 1 - 10.
 //    // i is CONTROL variable
 //    for(int i = 1; i <= 10; i++) // is a FIXED, PRE-TEST loop #1
@@ -23,7 +23,7 @@ using namespace std;
 //        cout << "Value of i is: " << i << endl;
 //    }
 //    cout << endl; // Break in output
-//    
+//
 //    int j = 1; // #1
 //    while (j <= 10) // Is a VARIABLE, PRE-TEST loop #2
 //    {
@@ -31,7 +31,7 @@ using namespace std;
 //        j++; // #3
 //    }
 //    cout << endl; // Break in output
-//    
+//
 //    int k = 1; // #1
 //    do // is VARIABLE, POST-TEST loop #3
 //    {
@@ -39,6 +39,6 @@ using namespace std;
 //        k++; // #3
 //    } while (k <= 10); // Don't forget the semicolon after the while and its condition. #2
 //    cout << endl; // Break in output
-//    
+//
 //    return 0;
 //}

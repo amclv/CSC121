@@ -1,0 +1,6 @@
+Please enter a numeric value:
+4
+Please enter a numeric value:
+4
+They are equal
+Program ended with exit code: 0

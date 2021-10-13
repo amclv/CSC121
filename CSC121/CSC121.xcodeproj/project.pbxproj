@@ -10,6 +10,7 @@
 		1A684EC3270FBEA9001CDCE7 /* Selection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A684EC2270FBEA9001CDCE7 /* Selection.cpp */; };
 		1A6AC9292714A2A90033D26A /* CaseSwitch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A6AC9282714A2A90033D26A /* CaseSwitch.cpp */; };
 		1A7D65AD271655A600D4DF64 /* Loops.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D65AC271655A600D4DF64 /* Loops.cpp */; };
+		1A7D65B0271661AB00D4DF64 /* exercise1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D65AF271661AB00D4DF64 /* exercise1.cpp */; };
 		1AA1041F270A207100FF560D /* Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AA1041E270A207100FF560D /* Strings.cpp */; };
 		1AA10426270A21BA00FF560D /* Prepost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AA10425270A21BA00FF560D /* Prepost.cpp */; };
 		1AA10429270A21DE00FF560D /* Constants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AA10428270A21DE00FF560D /* Constants.cpp */; };
@@ -44,6 +45,8 @@
 		1A7D65AB2716554600D4DF64 /* CaseSwitch.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CaseSwitch.txt; sourceTree = "<group>"; };
 		1A7D65AC271655A600D4DF64 /* Loops.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Loops.cpp; sourceTree = "<group>"; };
 		1A7D65AE271655AF00D4DF64 /* Loops.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Loops.txt; sourceTree = "<group>"; };
+		1A7D65AF271661AB00D4DF64 /* exercise1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exercise1.cpp; sourceTree = "<group>"; };
+		1A7D65B12716634000D4DF64 /* exercise1_output.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = exercise1_output.txt; sourceTree = "<group>"; };
 		1AA1041E270A207100FF560D /* Strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Strings.cpp; path = "CSC121/Chapter 2/Strings.cpp"; sourceTree = SOURCE_ROOT; };
 		1AA10425270A21BA00FF560D /* Prepost.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Prepost.cpp; sourceTree = "<group>"; };
 		1AA10428270A21DE00FF560D /* Constants.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Constants.cpp; sourceTree = "<group>"; };
@@ -109,6 +112,8 @@
 		1A7D65AA2716549900D4DF64 /* Assignment 2 */ = {
 			isa = PBXGroup;
 			children = (
+				1A7D65AF271661AB00D4DF64 /* exercise1.cpp */,
+				1A7D65B12716634000D4DF64 /* exercise1_output.txt */,
 			);
 			path = "Assignment 2";
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 				1AA1041F270A207100FF560D /* Strings.cpp in Sources */,
 				1A7D65AD271655A600D4DF64 /* Loops.cpp in Sources */,
 				1AA1042B270A221700FF560D /* Datatypes.cpp in Sources */,
+				1A7D65B0271661AB00D4DF64 /* exercise1.cpp in Sources */,
 				1ACA0DE3270AE4BC00553249 /* exercise2.cpp in Sources */,
 				1AA10429270A21DE00FF560D /* Constants.cpp in Sources */,
 				1AA10426270A21BA00FF560D /* Prepost.cpp in Sources */,
