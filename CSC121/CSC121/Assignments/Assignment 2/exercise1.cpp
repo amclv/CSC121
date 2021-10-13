@@ -12,18 +12,18 @@ using namespace std;
 
 //int main()
 //{
-//    // Declares two integers.
+//    // Declared two integers.
 //    int num_one;
 //    int num_two;
-//    
+//
 //    // Prompts user and grabs there input for first value
 //    cout << "Please enter a numeric value: \n";
 //    cin >> num_one;
-//    
+//
 //    // Prompts user and grabs there input for second value.
 //    cout << "Please enter a numeric value: \n";
 //    cin >> num_two;
-//    
+//
 //    // Checks if the number one is greater, less or equal to number 2.
 //    // Prints out the smalles value or if they are equal.
 //    if (num_one > num_two)
@@ -32,6 +32,6 @@ using namespace std;
 //        cout << "The smallest value is " << num_one << endl;
 //    else
 //        cout << "They are equal" << endl;
-//    
+//
 //    return 0;
 //}
