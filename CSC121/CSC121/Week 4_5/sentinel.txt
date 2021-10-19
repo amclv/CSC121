@@ -1,0 +1,8 @@
+How many number would you like to average?3
+Please enter the number: 85
+Please enter the number: 24
+Please enter the number: 97
+The largest value is 97
+The smallest value is 24
+The average value is 68.6667
+Program ended with exit code: 0

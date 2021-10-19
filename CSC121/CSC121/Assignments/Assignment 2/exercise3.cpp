@@ -17,17 +17,17 @@ using namespace std;
 //    string letterGrade;
 //    string outputString = "The equivalent number grade is ";
 //    double resultValue;
-//    
+//
 //    double aGrade = 4.0; // A+ || A, A- 3.7
 //    double bGrade = 3.0; // B, B+ 3.3, B- 2.7
 //    double cGrade = 2.0; // C, C+ 2.3, C- 1.7
 //    double dGrade = 1.0; // D, C+ 1.3, D- 0.7
 //    int fGrade = 0;      // F
-//    
+//
 //    // Prompt user and get input.
 //    cout << "Enter your letter grade: ";
 //    cin >> letterGrade;
-//    
+//
 //    cout << fixed << setprecision(1);
 //    if (letterGrade[0] == 'A')
 //    {
@@ -49,7 +49,7 @@ using namespace std;
 //    {
 //        resultValue = fGrade;
 //    }
-//    
+//
 //    cout << outputString << resultValue << endl;
 //    return 0;
 //}

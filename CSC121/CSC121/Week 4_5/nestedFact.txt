@@ -1,0 +1,50 @@
+Please enter the number for the factorial 12
+The factorial of 12 is 479001600
+
+Would you like to check the factorial of another number? (Y/N)y
+
+Please enter the number for the factorial 15
+The factorial of 15 is 2004310016
+
+Would you like to check the factorial of another number? (Y/N)y
+
+Please enter the number for the factorial 25
+The factorial of 25 is 2076180480
+
+Would you like to check the factorial of another number? (Y/N)y
+
+Please enter the number for the factorial 100
+The factorial of 100 is 0
+
+Would you like to check the factorial of another number? (Y/N)y
+
+Please enter the number for the factorial 50
+The factorial of 50 is 0
+
+Would you like to check the factorial of another number? (Y/N)y
+
+Please enter the number for the factorial 30
+The factorial of 30 is 1409286144
+
+Would you like to check the factorial of another number? (Y/N)y
+
+Please enter the number for the factorial 40
+The factorial of 40 is 0
+
+Would you like to check the factorial of another number? (Y/N)y
+
+Please enter the number for the factorial 35
+The factorial of 35 is 0
+
+Would you like to check the factorial of another number? (Y/N)y
+
+Please enter the number for the factorial 31
+The factorial of 31 is 738197504
+
+Would you like to check the factorial of another number? (Y/N)y
+
+Please enter the number for the factorial 32
+The factorial of 32 is -2147483648
+
+Would you like to check the factorial of another number? (Y/N)n
+Program ended with exit code: 0
