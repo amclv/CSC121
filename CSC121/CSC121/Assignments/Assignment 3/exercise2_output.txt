@@ -1,0 +1,11 @@
+Enter the whole number less than 4,000 you wish to convert: 3562
+The Roman nummeral is MMMDLXII
+Program ended with exit code: 0
+
+Enter the whole number less than 4,000 you wish to convert: 1974
+Test MCMLXXIV
+Program ended with exit code: 0
+
+Enter the whole number less than 4,000 you wish to convert: 363
+The Roman nummeral is CCCLXIII
+Program ended with exit code: 0

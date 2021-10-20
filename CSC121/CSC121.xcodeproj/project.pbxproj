@@ -18,11 +18,11 @@
 		1A7D65B0271661AB00D4DF64 /* exercise1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D65AF271661AB00D4DF64 /* exercise1.cpp */; };
 		1A7D65B327166AD600D4DF64 /* exercise2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D65B227166AD600D4DF64 /* exercise2.cpp */; };
 		1A7D65B62716774C00D4DF64 /* exercise3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D65B52716774C00D4DF64 /* exercise3.cpp */; };
-		1AA1041F270A207100FF560D /* Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AA1041E270A207100FF560D /* Strings.cpp */; };
 		1AA10426270A21BA00FF560D /* Prepost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AA10425270A21BA00FF560D /* Prepost.cpp */; };
 		1AA10429270A21DE00FF560D /* Constants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AA10428270A21DE00FF560D /* Constants.cpp */; };
 		1AA1042B270A221700FF560D /* Datatypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AA1042A270A221700FF560D /* Datatypes.cpp */; };
 		1AA10431270A753000FF560D /* Selection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AA10430270A753000FF560D /* Selection.cpp */; };
+		1AACB4F8271FC31A0055456F /* Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AACB4F7271FC31A0055456F /* Strings.cpp */; };
 		1ACA0DE1270AC4C300553249 /* exercise1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA0DE0270AC4C300553249 /* exercise1.cpp */; };
 		1ACA0DE3270AE4BC00553249 /* exercise2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA0DE2270AE4BC00553249 /* exercise2.cpp */; };
 		1ACA0DE5270AE6C000553249 /* exercise3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA0DE4270AE6C000553249 /* exercise3.cpp */; };
@@ -68,12 +68,12 @@
 		1A7D65B42716748300D4DF64 /* exercise2_output */ = {isa = PBXFileReference; lastKnownFileType = text; path = exercise2_output; sourceTree = "<group>"; };
 		1A7D65B52716774C00D4DF64 /* exercise3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exercise3.cpp; sourceTree = "<group>"; };
 		1A7D65B727168DAC00D4DF64 /* exercise3_output */ = {isa = PBXFileReference; lastKnownFileType = text; path = exercise3_output; sourceTree = "<group>"; };
-		1AA1041E270A207100FF560D /* Strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Strings.cpp; path = "CSC121/Chapter 2/Strings.cpp"; sourceTree = SOURCE_ROOT; };
 		1AA10425270A21BA00FF560D /* Prepost.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Prepost.cpp; sourceTree = "<group>"; };
 		1AA10428270A21DE00FF560D /* Constants.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Constants.cpp; sourceTree = "<group>"; };
 		1AA1042A270A221700FF560D /* Datatypes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Datatypes.cpp; sourceTree = "<group>"; };
 		1AA1042F270A742500FF560D /* Strings.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Strings.txt; sourceTree = "<group>"; };
 		1AA10430270A753000FF560D /* Selection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Selection.cpp; sourceTree = "<group>"; };
+		1AACB4F7271FC31A0055456F /* Strings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Strings.cpp; sourceTree = "<group>"; };
 		1ACA0DE0270AC4C300553249 /* exercise1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exercise1.cpp; sourceTree = "<group>"; };
 		1ACA0DE2270AE4BC00553249 /* exercise2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exercise2.cpp; sourceTree = "<group>"; };
 		1ACA0DE4270AE6C000553249 /* exercise3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exercise3.cpp; sourceTree = "<group>"; };
@@ -171,7 +171,7 @@
 		1AA1041C270A205600FF560D /* Week 2 */ = {
 			isa = PBXGroup;
 			children = (
-				1AA1041E270A207100FF560D /* Strings.cpp */,
+				1AACB4F7271FC31A0055456F /* Strings.cpp */,
 				1AA1042F270A742500FF560D /* Strings.txt */,
 				1AA10430270A753000FF560D /* Selection.cpp */,
 				1A412309270BE410002227DB /* Selection.txt */,
@@ -277,8 +277,8 @@
 				1A26BC43271DD04F00B93574 /* sentinel.cpp in Sources */,
 				1A7D65B327166AD600D4DF64 /* exercise2.cpp in Sources */,
 				1ACA0DE1270AC4C300553249 /* exercise1.cpp in Sources */,
-				1AA1041F270A207100FF560D /* Strings.cpp in Sources */,
 				1A26BC49271E7C4800B93574 /* nestedFact.cpp in Sources */,
+				1AACB4F8271FC31A0055456F /* Strings.cpp in Sources */,
 				1A7D65AD271655A600D4DF64 /* Loops.cpp in Sources */,
 				1AA1042B270A221700FF560D /* Datatypes.cpp in Sources */,
 				1A7D65B0271661AB00D4DF64 /* exercise1.cpp in Sources */,

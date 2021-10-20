@@ -1,0 +1,11 @@
+Please enter a year: 1900
+1900 is not a leap year.
+Program ended with exit code: 0
+
+Please enter a year: 2000
+2000 is a leap year.
+Program ended with exit code: 0
+
+Please enter a year: 1500
+1500 is a leap year.
+Program ended with exit code: 0
