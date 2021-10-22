@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1A12CD4627226433001E5A6C /* function1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A12CD4527226433001E5A6C /* function1.cpp */; };
 		1A12CD4927226B6E001E5A6C /* function2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A12CD4827226B6E001E5A6C /* function2.cpp */; };
+		1A12CD4E2722810B001E5A6C /* function3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A12CD4D2722810B001E5A6C /* function3.cpp */; };
 		1A26BC43271DD04F00B93574 /* sentinel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A26BC42271DD04F00B93574 /* sentinel.cpp */; };
 		1A26BC46271E4BF900B93574 /* factorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A26BC45271E4BF900B93574 /* factorial.cpp */; };
 		1A26BC49271E7C4800B93574 /* nestedFact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A26BC48271E7C4800B93574 /* nestedFact.cpp */; };
@@ -47,6 +48,8 @@
 		1A12CD4727226B58001E5A6C /* function1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = function1.txt; sourceTree = "<group>"; };
 		1A12CD4827226B6E001E5A6C /* function2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = function2.cpp; sourceTree = "<group>"; };
 		1A12CD4C27227ABA001E5A6C /* function2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = function2.txt; sourceTree = "<group>"; };
+		1A12CD4D2722810B001E5A6C /* function3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = function3.cpp; sourceTree = "<group>"; };
+		1A12CD4F27228116001E5A6C /* function3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = function3; sourceTree = "<group>"; };
 		1A26BC42271DD04F00B93574 /* sentinel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sentinel.cpp; sourceTree = "<group>"; };
 		1A26BC44271E4A4200B93574 /* sentinel.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = sentinel.txt; sourceTree = "<group>"; };
 		1A26BC45271E4BF900B93574 /* factorial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = factorial.cpp; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				1A12CD4727226B58001E5A6C /* function1.txt */,
 				1A12CD4827226B6E001E5A6C /* function2.cpp */,
 				1A12CD4C27227ABA001E5A6C /* function2.txt */,
+				1A12CD4D2722810B001E5A6C /* function3.cpp */,
+				1A12CD4F27228116001E5A6C /* function3 */,
 			);
 			path = "Week 4_5";
 			sourceTree = "<group>";
@@ -290,6 +295,7 @@
 				1A26BC49271E7C4800B93574 /* nestedFact.cpp in Sources */,
 				1A12CD4627226433001E5A6C /* function1.cpp in Sources */,
 				1AACB4F8271FC31A0055456F /* Strings.cpp in Sources */,
+				1A12CD4E2722810B001E5A6C /* function3.cpp in Sources */,
 				1A7D65AD271655A600D4DF64 /* Loops.cpp in Sources */,
 				1AA1042B270A221700FF560D /* Datatypes.cpp in Sources */,
 				1A7D65B0271661AB00D4DF64 /* exercise1.cpp in Sources */,
