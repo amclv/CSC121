@@ -1,0 +1,5 @@
+
+Please enter two integers: 10
+10
+The product of 10 and 10 is: 100
+Program ended with exit code: 0
