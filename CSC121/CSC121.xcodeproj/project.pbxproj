@@ -10,6 +10,7 @@
 		1A12CD4627226433001E5A6C /* function1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A12CD4527226433001E5A6C /* function1.cpp */; };
 		1A12CD4927226B6E001E5A6C /* function2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A12CD4827226B6E001E5A6C /* function2.cpp */; };
 		1A12CD4E2722810B001E5A6C /* function3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A12CD4D2722810B001E5A6C /* function3.cpp */; };
+		1A12CD5127228510001E5A6C /* function4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A12CD5027228510001E5A6C /* function4.cpp */; };
 		1A26BC43271DD04F00B93574 /* sentinel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A26BC42271DD04F00B93574 /* sentinel.cpp */; };
 		1A26BC46271E4BF900B93574 /* factorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A26BC45271E4BF900B93574 /* factorial.cpp */; };
 		1A26BC49271E7C4800B93574 /* nestedFact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A26BC48271E7C4800B93574 /* nestedFact.cpp */; };
@@ -50,6 +51,8 @@
 		1A12CD4C27227ABA001E5A6C /* function2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = function2.txt; sourceTree = "<group>"; };
 		1A12CD4D2722810B001E5A6C /* function3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = function3.cpp; sourceTree = "<group>"; };
 		1A12CD4F27228116001E5A6C /* function3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = function3; sourceTree = "<group>"; };
+		1A12CD5027228510001E5A6C /* function4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = function4.cpp; sourceTree = "<group>"; };
+		1A12CD5227228521001E5A6C /* function4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = function4.txt; path = "CSC121/Week 3/function4.txt"; sourceTree = SOURCE_ROOT; };
 		1A26BC42271DD04F00B93574 /* sentinel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sentinel.cpp; sourceTree = "<group>"; };
 		1A26BC44271E4A4200B93574 /* sentinel.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = sentinel.txt; sourceTree = "<group>"; };
 		1A26BC45271E4BF900B93574 /* factorial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = factorial.cpp; sourceTree = "<group>"; };
@@ -125,6 +128,8 @@
 				1A12CD4C27227ABA001E5A6C /* function2.txt */,
 				1A12CD4D2722810B001E5A6C /* function3.cpp */,
 				1A12CD4F27228116001E5A6C /* function3 */,
+				1A12CD5027228510001E5A6C /* function4.cpp */,
+				1A12CD5227228521001E5A6C /* function4.txt */,
 			);
 			path = "Week 4_5";
 			sourceTree = "<group>";
@@ -291,6 +296,7 @@
 				1A7D65B62716774C00D4DF64 /* exercise3.cpp in Sources */,
 				1A26BC43271DD04F00B93574 /* sentinel.cpp in Sources */,
 				1A7D65B327166AD600D4DF64 /* exercise2.cpp in Sources */,
+				1A12CD5127228510001E5A6C /* function4.cpp in Sources */,
 				1ACA0DE1270AC4C300553249 /* exercise1.cpp in Sources */,
 				1A26BC49271E7C4800B93574 /* nestedFact.cpp in Sources */,
 				1A12CD4627226433001E5A6C /* function1.cpp in Sources */,
