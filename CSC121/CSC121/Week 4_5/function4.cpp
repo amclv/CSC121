@@ -20,24 +20,24 @@ using namespace std;
  */
 int Product(int, int);
 
-int main()
-{
-    int n1;
-    int n2;
-    
-    cout << "Please enter two integers: ";
-    cin >> n1 >> n2;
-    
-    // n1 and n2 are ACTUAL parameters(arugments) VALUES --> constant/variables/expression/fn call
-    cout << "The product of " << n1 << " and " << n2 << " is: " << Product(n1, n2) << endl;
-    
-    return 0;
-}
-
-// VAR = VALUE;
-int Product(int n1, int n2)
-{
-    // int Product(int n1, int n2) // n1 and n2 are FORMAL parameters(parameters)VARIABLES
-    
-    return (n1 * n2);
-}
+//int main()
+//{
+//    int n1;
+//    int n2;
+//
+//    cout << "Please enter two integers: ";
+//    cin >> n1 >> n2;
+//
+//    // n1 and n2 are ACTUAL parameters(arugments) VALUES --> constant/variables/expression/fn call
+//    cout << "The product of " << n1 << " and " << n2 << " is: " << Product(n1, n2) << endl;
+//
+//    return 0;
+//}
+//
+//// VAR = VALUE;
+//int Product(int n1, int n2)
+//{
+//    // int Product(int n1, int n2) // n1 and n2 are FORMAL parameters(parameters)VARIABLES
+//
+//    return (n1 * n2);
+//}
