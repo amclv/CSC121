@@ -18,6 +18,9 @@ using namespace std;
 
 void Header(string); // Function PROTOTYPE with a string parameter
 
+
+int x = 25; // GLOBAL CONSTANT
+
 int main()
 { // Arugment Actual Parameter -> #1 #2 #3
     
@@ -29,7 +32,7 @@ int main()
     Header(title); // argument passed to the void function -- actual parameter #2 variable
     
     // #3 sample(x+3-7) INPUT VALUE CAN BE EXPRESSION
-    Header(title.substr(7, 10)); // #4 FUNCTION CALL
+    Header(title.substr(7, (x - 15))); // #4 FUNCTION CALL
     cout << title << endl; // PRINTING value of title after function call
     
 //    cout << T << endl; // Trying to print T in main // This would never work as the value T is only being done from a function.
@@ -46,4 +49,5 @@ int main()
 void Header(string T) // Parameter FORMAL Parameter --> Variable
 {
     cout << T << endl;
+    cout << x << endl;
 }
