@@ -1,0 +1,7 @@
+
+Please enter the first number: 5
+Please enter the second number: 6
+5    6
+Here is the sum of the Numbers in Num1: 11
+Here is the sum of the Numbers in Num2: -1
+Program ended with exit code: 0

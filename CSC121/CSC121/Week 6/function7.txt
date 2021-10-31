@@ -1,0 +1,7 @@
+
+Please enter the first number: 5
+Please enter the second number: 5
+Here is the sum of the Numbers in Num1: 1
+Here is the diff of the Numbers in Num2: 0
+Here is the number multipied by itself: 36
+Program ended with exit code: 0
