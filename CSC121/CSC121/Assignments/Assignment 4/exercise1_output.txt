@@ -1,0 +1,40 @@
+    Diving Competition
+    Ready to get started? (Y/N): y
+
+        Enter the diver's name: Aaron Cleveland
+        Enter the diver's city: Chicago IL
+
+            Please enter between 0 - 10 for score!
+
+            Enter the score given by Judge #1: 5.7
+            Enter the score given by Judge #2: 6.8
+            Enter the score given by Judge #3: 7.6
+            Enter the score given by Judge #4: 8.7
+            Enter the score given by Judge #5: 6.7
+            What was the degree of difficulty? 1.1
+
+        Diver: Aaron Cleveland, City: hicago IL
+        Overall score was 7.74
+
+    Do you want to process another diver? (Y/N): y
+
+        Enter the diver's name: Sue
+        Enter the diver's city: Test
+
+            Please enter between 0 - 10 for score!
+
+            Enter the score given by Judge #1: 3
+            Enter the score given by Judge #2: 4.5
+            Enter the score given by Judge #3: 6.7
+            Enter the score given by Judge #4: 8
+            Enter the score given by Judge #5: 9.2
+            What was the degree of difficulty? 1.2
+
+        Diver: Sue, City: est
+        Overall score was 7.68
+
+    Do you want to process another diver? (Y/N): n
+            EVENT SUMMARY
+    Number of divers participating:     2
+    Average score of all divers:         7.71
+    Press any key to continue . . .Program ended with exit code: 0

@@ -30,6 +30,7 @@
 		1AC52BED272E3F9C00891297 /* Selection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC52BE8272E3F9C00891297 /* Selection.cpp */; };
 		1AC52BEE272E3F9C00891297 /* CaseSwitch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC52BE9272E3F9C00891297 /* CaseSwitch.cpp */; };
 		1AC52BEF272E3F9C00891297 /* Loops.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC52BEB272E3F9C00891297 /* Loops.cpp */; };
+		1AC52BF6272E408200891297 /* exercise1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC52BF5272E408200891297 /* exercise1.cpp */; };
 		1ACA0DE1270AC4C300553249 /* exercise1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA0DE0270AC4C300553249 /* exercise1.cpp */; };
 		1ACA0DE3270AE4BC00553249 /* exercise2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA0DE2270AE4BC00553249 /* exercise2.cpp */; };
 		1ACA0DE5270AE6C000553249 /* exercise3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA0DE4270AE6C000553249 /* exercise3.cpp */; };
@@ -82,6 +83,7 @@
 		1A7D65B42716748300D4DF64 /* exercise2_output */ = {isa = PBXFileReference; lastKnownFileType = text; path = exercise2_output; sourceTree = "<group>"; };
 		1A7D65B52716774C00D4DF64 /* exercise3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exercise3.cpp; sourceTree = "<group>"; };
 		1A7D65B727168DAC00D4DF64 /* exercise3_output */ = {isa = PBXFileReference; lastKnownFileType = text; path = exercise3_output; sourceTree = "<group>"; };
+		1A83EFA127324ECF002B0CCD /* exercise1_output.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = exercise1_output.txt; sourceTree = "<group>"; };
 		1AA10425270A21BA00FF560D /* Prepost.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Prepost.cpp; sourceTree = "<group>"; };
 		1AA10428270A21DE00FF560D /* Constants.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Constants.cpp; sourceTree = "<group>"; };
 		1AA1042A270A221700FF560D /* Datatypes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Datatypes.cpp; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 		1AC52BEA272E3F9C00891297 /* CaseSwitch.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CaseSwitch.txt; sourceTree = "<group>"; };
 		1AC52BEB272E3F9C00891297 /* Loops.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Loops.cpp; sourceTree = "<group>"; };
 		1AC52BEC272E3F9C00891297 /* Selection.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Selection.txt; sourceTree = "<group>"; };
+		1AC52BF5272E408200891297 /* exercise1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exercise1.cpp; sourceTree = "<group>"; };
 		1ACA0DE0270AC4C300553249 /* exercise1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exercise1.cpp; sourceTree = "<group>"; };
 		1ACA0DE2270AE4BC00553249 /* exercise2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exercise2.cpp; sourceTree = "<group>"; };
 		1ACA0DE4270AE6C000553249 /* exercise3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exercise3.cpp; sourceTree = "<group>"; };
@@ -242,9 +245,19 @@
 			path = "Week 3";
 			sourceTree = "<group>";
 		};
+		1AC52BF4272E407300891297 /* Assignment 4 */ = {
+			isa = PBXGroup;
+			children = (
+				1AC52BF5272E408200891297 /* exercise1.cpp */,
+				1A83EFA127324ECF002B0CCD /* exercise1_output.txt */,
+			);
+			path = "Assignment 4";
+			sourceTree = "<group>";
+		};
 		1ACA0DDE270AC48400553249 /* Assignments */ = {
 			isa = PBXGroup;
 			children = (
+				1AC52BF4272E407300891297 /* Assignment 4 */,
 				1A26BC40271DCF7400B93574 /* Assignment 3 */,
 				1A7D65AA2716549900D4DF64 /* Assignment 2 */,
 				1ACA0DDF270AC48B00553249 /* Assignment 1 */,
@@ -344,6 +357,7 @@
 				1A26BC49271E7C4800B93574 /* nestedFact.cpp in Sources */,
 				1AC026132727AB0600B3CB0E /* function5.cpp in Sources */,
 				1AC52BEE272E3F9C00891297 /* CaseSwitch.cpp in Sources */,
+				1AC52BF6272E408200891297 /* exercise1.cpp in Sources */,
 				1A12CD4627226433001E5A6C /* function1.cpp in Sources */,
 				1AACB4F8271FC31A0055456F /* Strings.cpp in Sources */,
 				1AE82A36272CD3C300E2A6AA /* function8.cpp in Sources */,
