@@ -7,15 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A12CD4627226433001E5A6C /* function1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A12CD4527226433001E5A6C /* function1.cpp */; };
-		1A12CD4927226B6E001E5A6C /* function2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A12CD4827226B6E001E5A6C /* function2.cpp */; };
-		1A12CD4E2722810B001E5A6C /* function3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A12CD4D2722810B001E5A6C /* function3.cpp */; };
-		1A12CD5127228510001E5A6C /* function4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A12CD5027228510001E5A6C /* function4.cpp */; };
 		1A215BA7272C64F900DB765C /* function6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A215BA6272C64F900DB765C /* function6.cpp */; };
 		1A215BAA272C6CA900DB765C /* function7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A215BA9272C6CA900DB765C /* function7.cpp */; };
-		1A26BC43271DD04F00B93574 /* sentinel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A26BC42271DD04F00B93574 /* sentinel.cpp */; };
-		1A26BC46271E4BF900B93574 /* factorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A26BC45271E4BF900B93574 /* factorial.cpp */; };
-		1A26BC49271E7C4800B93574 /* nestedFact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A26BC48271E7C4800B93574 /* nestedFact.cpp */; };
 		1A26BC4C271E813700B93574 /* exercise1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A26BC4B271E813700B93574 /* exercise1.cpp */; };
 		1A26BC4E271E815200B93574 /* exercise2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A26BC4D271E815200B93574 /* exercise2.cpp */; };
 		1A7D65B0271661AB00D4DF64 /* exercise1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D65AF271661AB00D4DF64 /* exercise1.cpp */; };
@@ -52,22 +45,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1A12CD4527226433001E5A6C /* function1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = function1.cpp; sourceTree = "<group>"; };
-		1A12CD4727226B58001E5A6C /* function1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = function1.txt; sourceTree = "<group>"; };
-		1A12CD4827226B6E001E5A6C /* function2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = function2.cpp; sourceTree = "<group>"; };
-		1A12CD4C27227ABA001E5A6C /* function2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = function2.txt; sourceTree = "<group>"; };
-		1A12CD4D2722810B001E5A6C /* function3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = function3.cpp; sourceTree = "<group>"; };
-		1A12CD4F27228116001E5A6C /* function3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = function3; sourceTree = "<group>"; };
-		1A12CD5027228510001E5A6C /* function4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = function4.cpp; sourceTree = "<group>"; };
 		1A215BA6272C64F900DB765C /* function6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = function6.cpp; sourceTree = "<group>"; };
 		1A215BA8272C6C9000DB765C /* function6.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = function6.txt; sourceTree = "<group>"; };
 		1A215BA9272C6CA900DB765C /* function7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = function7.cpp; sourceTree = "<group>"; };
-		1A26BC42271DD04F00B93574 /* sentinel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sentinel.cpp; sourceTree = "<group>"; };
-		1A26BC44271E4A4200B93574 /* sentinel.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = sentinel.txt; sourceTree = "<group>"; };
-		1A26BC45271E4BF900B93574 /* factorial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = factorial.cpp; sourceTree = "<group>"; };
-		1A26BC47271E520200B93574 /* factorial.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = factorial.txt; sourceTree = "<group>"; };
-		1A26BC48271E7C4800B93574 /* nestedFact.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nestedFact.cpp; sourceTree = "<group>"; };
-		1A26BC4A271E7F5200B93574 /* nestedFact.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = nestedFact.txt; sourceTree = "<group>"; };
 		1A26BC4B271E813700B93574 /* exercise1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exercise1.cpp; sourceTree = "<group>"; };
 		1A26BC4D271E815200B93574 /* exercise2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exercise2.cpp; sourceTree = "<group>"; };
 		1A26BC4F271E816300B93574 /* exercise1_output.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = exercise1_output.txt; sourceTree = "<group>"; };
@@ -107,7 +87,6 @@
 		1AE82A37272CD3CE00E2A6AA /* function8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = function8; sourceTree = "<group>"; };
 		1AE82A3B272DFA1E00E2A6AA /* test2_code1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test2_code1.cpp; sourceTree = "<group>"; };
 		1AE82A3D272E05A100E2A6AA /* test2_code2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test2_code2.cpp; sourceTree = "<group>"; };
-		1AE82A40272E394500E2A6AA /* function4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = function4.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,27 +111,6 @@
 			path = "Assignment 3";
 			sourceTree = "<group>";
 		};
-		1A26BC41271DD03000B93574 /* Week 4_5 */ = {
-			isa = PBXGroup;
-			children = (
-				1A26BC42271DD04F00B93574 /* sentinel.cpp */,
-				1A26BC44271E4A4200B93574 /* sentinel.txt */,
-				1A26BC45271E4BF900B93574 /* factorial.cpp */,
-				1A26BC47271E520200B93574 /* factorial.txt */,
-				1A26BC48271E7C4800B93574 /* nestedFact.cpp */,
-				1A26BC4A271E7F5200B93574 /* nestedFact.txt */,
-				1A12CD4527226433001E5A6C /* function1.cpp */,
-				1A12CD4727226B58001E5A6C /* function1.txt */,
-				1A12CD4827226B6E001E5A6C /* function2.cpp */,
-				1A12CD4C27227ABA001E5A6C /* function2.txt */,
-				1A12CD4D2722810B001E5A6C /* function3.cpp */,
-				1A12CD4F27228116001E5A6C /* function3 */,
-				1A12CD5027228510001E5A6C /* function4.cpp */,
-				1AE82A40272E394500E2A6AA /* function4.txt */,
-			);
-			path = "Week 4_5";
-			sourceTree = "<group>";
-		};
 		1A757F53270A2014002AD01F = {
 			isa = PBXGroup;
 			children = (
@@ -174,7 +132,6 @@
 			children = (
 				1AE82A3F272E05BF00E2A6AA /* Tests */,
 				1AC026112727AA4400B3CB0E /* Week 6 */,
-				1A26BC41271DD03000B93574 /* Week 4_5 */,
 				1AC52BDD272E3E9C00891297 /* Week 3 */,
 				1AA1041C270A205600FF560D /* Week 2 */,
 				1AA1041D270A206000FF560D /* Week 1 */,
@@ -347,28 +304,21 @@
 				1AA10431270A753000FF560D /* Selection.cpp in Sources */,
 				1ACA0DE5270AE6C000553249 /* exercise3.cpp in Sources */,
 				1AE82A3E272E05A100E2A6AA /* test2_code2.cpp in Sources */,
-				1A26BC46271E4BF900B93574 /* factorial.cpp in Sources */,
 				1A7D65B62716774C00D4DF64 /* exercise3.cpp in Sources */,
 				1AC52BEF272E3F9C00891297 /* Loops.cpp in Sources */,
-				1A26BC43271DD04F00B93574 /* sentinel.cpp in Sources */,
 				1A7D65B327166AD600D4DF64 /* exercise2.cpp in Sources */,
-				1A12CD5127228510001E5A6C /* function4.cpp in Sources */,
 				1ACA0DE1270AC4C300553249 /* exercise1.cpp in Sources */,
-				1A26BC49271E7C4800B93574 /* nestedFact.cpp in Sources */,
 				1AC026132727AB0600B3CB0E /* function5.cpp in Sources */,
 				1AC52BEE272E3F9C00891297 /* CaseSwitch.cpp in Sources */,
 				1AC52BF6272E408200891297 /* exercise1.cpp in Sources */,
-				1A12CD4627226433001E5A6C /* function1.cpp in Sources */,
 				1AACB4F8271FC31A0055456F /* Strings.cpp in Sources */,
 				1AE82A36272CD3C300E2A6AA /* function8.cpp in Sources */,
-				1A12CD4E2722810B001E5A6C /* function3.cpp in Sources */,
 				1AA1042B270A221700FF560D /* Datatypes.cpp in Sources */,
 				1AE82A3C272DFA1E00E2A6AA /* test2_code1.cpp in Sources */,
 				1A7D65B0271661AB00D4DF64 /* exercise1.cpp in Sources */,
 				1AC52BED272E3F9C00891297 /* Selection.cpp in Sources */,
 				1A26BC4C271E813700B93574 /* exercise1.cpp in Sources */,
 				1ACA0DE3270AE4BC00553249 /* exercise2.cpp in Sources */,
-				1A12CD4927226B6E001E5A6C /* function2.cpp in Sources */,
 				1AA10429270A21DE00FF560D /* Constants.cpp in Sources */,
 				1A26BC4E271E815200B93574 /* exercise2.cpp in Sources */,
 				1A215BA7272C64F900DB765C /* function6.cpp in Sources */,

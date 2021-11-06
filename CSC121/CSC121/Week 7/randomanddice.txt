@@ -1,0 +1,13 @@
+➜  Week 7 git:(master) ✗ ./randomanddice
+1 4
+6 3
+4 3
+1 5
+2 1
+2 3
+3 5
+2 6
+4 6
+6 5
+
+➜  Week 7 git:(master) ✗

@@ -1,0 +1,8 @@
+Last login: Thu Nov  4 16:49:44 on ttys007
+/Users/aaroncleveland/Desktop/CSC121/CSC121/CSC121/Week\ 7/output ; exit;
+➜  ~ /Users/aaroncleveland/Desktop/CSC121/CSC121/CSC121/Week\ 7/output ; exit;
+120
+
+Saving session...completed.
+
+[Process completed]
