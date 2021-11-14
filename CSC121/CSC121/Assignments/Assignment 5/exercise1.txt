@@ -1,0 +1,24 @@
+➜  Assignment 5 git:(master) ✗ ./test                   
+Enter a phone number(Q to quit): 213
+-2121
+Phone Number Dialed:213-2121
+➜  Assignment 5 git:(master) ✗ ./test
+Enter a phone number(Q to quit): asc-dfer
+Phone Number Dialed:272-3337
+➜  Assignment 5 git:(master) ✗ ./test
+Enter a phone number(Q to quit): 555-resw
+ERROR - Phone number cannot begin with 555
+Try again
+➜  Assignment 5 git:(master) ✗ ./test
+Enter a phone number(Q to quit): 098-8765
+ERROR - Phone number cannot begin with 0
+Try again
+➜  Assignment 5 git:(master) ✗ ./test
+Enter a phone number(Q to quit): 12345678
+ERROR - Hyphen is not in the correct position
+Try again
+➜  Assignment 5 git:(master) ✗ ./test
+Enter a phone number(Q to quit): @34-*uyt
+ERROR - An invalid character was entered
+Try again
+➜  Assignment 5 git:(master) ✗ 
