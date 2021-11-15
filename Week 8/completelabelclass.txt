@@ -1,0 +1,19 @@
+➜  Week 8 git:(master) ✗ ./out
+
+ Object destroyed
+Please enter the label information: 
+Aaron
+Cleveland
+60074
+Aaron	Cleveland
+60074
+
+Aaron	Cleveland
+90210
+
+Ben	Noble
+99999
+Please enter the label information: 
+^C
+➜  Week 8 git:(master) ✗ clear
+
