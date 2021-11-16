@@ -1,0 +1,15 @@
+➜  Week 9 git:(master) ✗ ./a.out 
+Please enter the label information: 
+Aaron
+Cleveland
+600074
+Aaron	Cleveland
+600074
+
+Aaron	Cleveland
+90210
+
+Ben	Noble
+99999
+Please enter the label information: 
+

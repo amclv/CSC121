@@ -2,6 +2,13 @@
 
 // Function implementations
 // :: Scope Resolution Operator
+label::label()
+{
+	fname = "";
+	lname = "";
+	zip = 0;
+}
+
 label::label(string f, string l, int z) 
 { //overloaded constructor
 	fname = f;
