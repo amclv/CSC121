@@ -93,28 +93,3 @@ int main() {
 
 	return 0;
 }
-
-
-
-
-// // extra functions
-// 	void print() {
-// 		cout << getName() << "\t" << getLname() << endl;
-// 		cout << getZip() << endl << endl;		
-// 	}
-
-// 	void getInput() {
-// 		cout << "Please enter the label information: \n";
-// 		getline(cin, fname);
-// 		getline(cin, lname);
-// 		cin >> zip;
-// 		cin.ignore();
-// 	}
-
-// 	// constructor -> same name as class // NO RETURN DATATYPE
-// 	// to set aside space for data members, you can also put default values in it.
-// 	label() {
-// 		fname = "";
-// 		lname = "";
-// 		zip = 0; 
-// 	} // default constructor
