@@ -1,31 +1,64 @@
 #include "week.h"
 
-void setDay() 
-{
+string week::days[7]= { "Sun", "Mon", "Tues", "Wednes", "Thurs", "Fri", "Satur" };
 
+week::week() { 
+	// default constructor 
 }
 
-void printDay()
-{
+week::week(string day) { setDay(day); }
 
+void week::setDay(string day) {
+	int lengthOfDay = day.length();
+	dayOfWeek = day.substr(0, lengthOfDay - 3);
 }
 
-void getDay() 
-{
+void week::printDay() { cout << getDay() << endl; }
 
+string week::getDay() {
+	string day = dayOfWeek + "day";
+	return day;
 }
 
-void plusOneDay() 
-{
-
+string week::plusOneDay() {
+	int dayValue;
+	for (int i = 0; i < 7; i++) {
+		if (days[i] == dayOfWeek) {
+			dayValue = i;
+			break;
+		}
+	}
+	dayValue = dayValue + 1;
+	if (dayValue == 7)
+		dayValue = 0;
+		string newDay = days[dayValue] + "day";
+		return newDay;
 }
 
-void minusOneDay() 
-{
-
+string week::minusOneDay() {
+	int dayValue;
+	for (int i = 0; i < 7; i++) {
+		if (days[i] == dayOfWeek) {
+			dayValue = i;
+			break;
+		}
+	}
+	dayValue = dayValue - 1;
+	if (dayValue == -1)
+		dayValue = 6;
+		string newDay = days[dayValue] + "day";
+		return newDay;
 }
 
-void addDays() 
-{
-    
+string week::addDays(int numOfDays) {
+	int dayValue;
+	for (int i = 0; i < 7; i++) {
+		if (days[i] == dayOfWeek) {
+			dayValue = i;
+			break;
+		}
+	}
+	dayValue = dayValue + numOfDays;
+	string newDay = days[dayValue % 7] + "day";
+	return newDay;
 }

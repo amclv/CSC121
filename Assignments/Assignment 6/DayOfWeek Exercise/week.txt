@@ -1,0 +1,20 @@
+➜  DayOfWeek Exercise git:(master) ✗ ./out
+getDay() = Sunday
+Printing the day
+Sunday
+Adding One Day
+Monday
+Subtracting one day:
+Saturday
+Adding 11 days:
+Thursday
+------------------------
+getDay() = Wednesday
+Printing the day:
+Wednesday
+Adding one day:
+Thursday
+Subtracting one day:
+Tuesday
+Adding 19 days:
+Monday
