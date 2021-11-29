@@ -1,0 +1,19 @@
+➜  Country Exercise git:(master) ✗ g++ *.cpp -o out
+➜  Country Exercise git:(master) ✗ ./out
+Enter the Country's name (no spaces), or QUIT to finish: India
+Enter the population of India : 2000000
+Enter the area of India in square km: 45000
+
+ Enter the Country's name (no spaces), or QUIT to finish: Korea
+Enter the population of Korea : 500000
+Enter the area of Korea in square km: 26351
+
+ Enter the Country's name (no spaces), or QUIT to finish: France
+Enter the population of France : 56324
+Enter the area of France in square km: 4526
+
+ Enter the Country's name (no spaces), or QUIT to finish: QUIT
+India has the largest population2000000 people.
+India has the largest area with 45000 square km.
+India has the highest density with 44.4444 per sq. km.
+➜  Country Exercise git:(master) ✗
