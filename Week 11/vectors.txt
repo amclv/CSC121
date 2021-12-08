@@ -1,0 +1,14 @@
+Week 11 git:(master) ✗ ./test
+Please enter salaries, 0 to quit:
+150
+785
+69
+0
+150
+785 <== highest value
+69
+
+New list with the last number removed
+
+150
+785
