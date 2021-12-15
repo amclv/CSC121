@@ -1,0 +1,4 @@
+➜  Assignments 7 git:(master) ✗ ./test
+Enter 20 numbers: 14 23 23 25 27 30 2 1 9 107 99 64 71 28 93 93 93 90 1 0
+User entered: 14 23 25 27 30 99 64 71 28 93 90
+➜  Assignments 7 git:(master) ✗
