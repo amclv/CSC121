@@ -1,0 +1,12 @@
+➜  Week 11 git:(master) ✗ ./test
+Please enter the name followed by the grade:
+John Smith
+B
+Mary Clark
+A
+David Doe
+C
+John Smith	B
+Mary Clark	A
+David Doe	C
+➜  Week 11 git:(master) ✗
